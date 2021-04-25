@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #product-overview {
@@ -13,12 +13,10 @@ body {
   background-image: url(PradeepFreedom.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-
-
 }
-#product-overview h1{
+#product-overview h1 {
   color: white;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .section-title {
   color: #20198b;
@@ -27,25 +25,23 @@ body {
 .main-header {
   width: 100%;
   background: #3ddf5c;
-  padding: 8px 16px; 
+  padding: 8px 16px;
 }
 
 .main-nav-item {
   display: inline-block;
- padding: 0 16px;
-
+  padding: 0 16px;
 }
 
 .main-nav-item a {
   color: #0e4f0e;
   text-decoration: none;
-  }
+}
 
 .main-nav-items {
   margin: 0;
-padding-left: 0;
-list-style: none;
-
+  padding-left: 0;
+  list-style: none;
 }
 
 .main-header > div {
@@ -67,4 +63,11 @@ list-style: none;
   vertical-align: middle;
 }
 
-main
+.main-nav-item a:hover,
+.main-nav-item a:active {
+  color: white;
+}
+
+/* p::first-letter {  (sudo element )
+  color: red;
+} */
