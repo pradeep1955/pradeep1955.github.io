@@ -1,13 +1,24 @@
 const quizData = [
-    {
-        question: 'The plan of Sir Stafford Cripps envisaged that after the Second World War',
-        a: 'India should be granted complete independence(b) India should be partitioned into two before granting independence',
-        b:'India should be made a republic with the condition that she will join the Commonwealth',
-        c:'3 only',
-        d:'India should be given Dominion status',
-        correct:'d'
+{
+    question: 'The country which has the greatest population density is',
+    a: 'China',
+    b: 'India',
+    c: 'Monaco',
+    d: 'Indonesia',
+    correct: 'c'
+}
 
-    },
+    // {
+       
+
+    //     question: 'The plan of Sir Stafford Cripps envisaged that after the Second World War',
+    //     a: 'India should be granted complete independence(b) India should be partitioned into two before granting independence',
+    //     b:'India should be made a republic with the condition that she will join the Commonwealth',
+    //     c:'3 only',
+    //     d:'India should be given Dominion status',
+    //     correct:'d'
+
+    // },
     {
         question: 'Which one of the following movements has contributed to a split in the Indian National Congress resulting in the emergence of "moderates" and "extremists"?',
         a: 'Swadeshi Movement',
