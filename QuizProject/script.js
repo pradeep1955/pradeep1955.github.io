@@ -1,11 +1,11 @@
 const quizData = [
     {
-        question: 'With reference to Indian history, which of the following is/are the essential elements of the feudal system- 1.A very strong centralized political authority and a very weak provincial or local political authority-2. The emergence of administrative structure based on control and possession of the land-3. Creation of the lord-vassal relationship between the feudal lord and his overlord',
-        a: '1 and 2 only',
-        b:'2 and 3 only',
+        question: 'The plan of Sir Stafford Cripps envisaged that after the Second World War',
+        a: 'India should be granted complete independence(b) India should be partitioned into two before granting independence',
+        b:'India should be made a republic with the condition that she will join the Commonwealth',
         c:'3 only',
-        d:'1, 2 and 3',
-        correct:'a'
+        d:'India should be given Dominion status',
+        correct:'d'
 
     },
     {
@@ -18,11 +18,11 @@ const quizData = [
 
     },
     {
-        question: 'Who is the president of US?',
-        a: 'Alexander Sajzenistin',
-        b:'Michel Jackson',
-        c:'Donald Trump',
-        d:'Joe Biden',
+        question: 'What was the main reason for the split in the Indian National Congress at Surat in 1907?',
+        a: 'Introduction of communalism into Indian politics by Lord Minto',
+        b:'"Extremists" lack of faith in the capacity of the moderates to negotiate with the British Government',
+        c:'Foundation of Muslim League',
+        d:'"Aurobindo Ghosh"s inability to be elected as the President of the Indian National Congress',
         correct:'d'
     },
     {
@@ -73,6 +73,7 @@ const quizData = [
         d:'Annie Besant',
         correct:'b'
     },
+   
        
 ];
     const quiz = document.getElementById("quiz");
@@ -123,6 +124,7 @@ const quizData = [
     submitBtn.addEventListener("click", () => {
         //check to see the
          const answer =  getSelected();
+      
         
   
              if(answer)
@@ -141,6 +143,7 @@ const quizData = [
                   
                   <button onclick= "location.reload()">Reload</button>
                   `;
+                   
                 }
                
                 
