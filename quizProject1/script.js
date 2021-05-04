@@ -6,7 +6,7 @@ const quizData = [
     c: 'Monaco',
     d: 'Indonesia',
     correct: 'c'
-}
+},
 
     // {
        
